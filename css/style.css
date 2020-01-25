@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.list-users {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.user {
+  margin: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+}
+
+.user:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+.user-avatar {
+  border: 1px solid black;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-avatar img {
+  width: 100px;
+}
+
+.user-name {
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
